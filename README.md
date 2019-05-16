@@ -140,6 +140,13 @@ pip3 install tensorflow==1.13.1 flask requests Pillow matplotlib easydict captch
   
 如果你没有训练集，你可以使用`gen_sample_by_captcha.py`文件生成训练集文件。
 生成之前你需要修改相关配置（路径、文件后缀、字符集等）。
+```
+python3 gen_image/gen_sample_by_captcha.py
+```
+上方命令配合下方多执行几次
+```
+python3 verify_and_split_data.py
+```
 
 ## 2.2 配置文件
 创建一个新项目前，需要自行**修改相关配置文件**
