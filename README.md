@@ -117,7 +117,7 @@ use CNN recognize captcha by tensorflow.
 ## 1.3 依赖
 ```
 pip3 install tensorflow==1.13.1 flask==1.0.2 requests==2.19.1 Pillow==4.3.0 matplotlib==2.1.0 easydict==1.8 captcha
-
+#centos 7 安装1.13.1 的tensorflow问题较多，6.5一定要注意版本，选择低版本
 pip3 install tensorflow==1.13.1 flask requests Pillow matplotlib easydict captcha
 去掉所有版本号运行 tensorflow除外
 ```
