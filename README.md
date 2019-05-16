@@ -216,6 +216,10 @@ Total image count: 10094
 ```
 python3 train_model.py
 ```
+后台ssh执行
+```
+nohup python3 train_model.py
+```
 也可以调用类开始训练或执行一次简单的识别演示
 ```
 from train_model import TrainModel
@@ -236,6 +240,10 @@ tm.recognize_captcha()  # 识别演示
 ```
 
 **2018.11.26** 新增`train_model_v2.py`文件  
+后台ssh执行
+```
+nohup python3 train_model_v2.py
+```
 同样是训练模型的脚本，在训练过程中增加了识别测试集的并输出准确率的过程，例如：
 ```
 第480次训练 >>> [训练集] 准确率为 1.0 >>> loss 0.0017373242881149054
